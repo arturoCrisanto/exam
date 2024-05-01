@@ -1,0 +1,61 @@
+/* update.css */
+
+/* Rounded input box */
+input[type="text"],
+input[type="number"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Rounded button */
+button {
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Blue color, you can change it */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add border to inventory items */
+.inventory-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+/* Custom checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  border: 1px solid #007bff; /* Blue color, you can change it */
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff; /* Blue color, you can change it */
+}
+
+input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
