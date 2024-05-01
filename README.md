@@ -1,17 +1,27 @@
-## Programming Exam In LNU
+# LNU Programming Exam: Simple CRUD Inventory System for CMT
 
-# simple CRUD inventory System for CMT
+This project is a straightforward CRUD inventory system developed using React, with data stored solely in the component's state.
 
-Created with `React` and the data storage is only in the `State`
+## Installation
 
-if you want to clone this project
+To clone this project, use the following command:
 
 ```javascript
 git clone https://github.com/arturoCrisanto/exam.git
 ```
 
-and
+## After cloning, install the dependencies:
 
 ```bash
 npm i
 ```
+
+## Usage
+
+To run the project, execute the following command in the terminal:
+
+```bash
+npm start
+```
+
+Now you're all set to explore and utilize the inventory system!
